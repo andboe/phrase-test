@@ -5,6 +5,7 @@ phrase:
     sources:
       - file: ./locales/en.json
         params:
+          locale_id: 7588123b4682d13cde2a4771bc08ced9
           file_format: i18next_4
           tags: saferun-ui
           update_translations: true
@@ -12,7 +13,32 @@ phrase:
           autotranslate: true
   pull:
     targets:
-      - file: ./locales/<locale_code>.json
+      - file: ./locales/de.json
         params:
+          locale_id: 313de83e6657cb044650c8dda7b65c0a
+          file_format: i18next_4
+          include_unverified_translations: true
+    targets:
+      - file: ./locales/fr.json
+        params:
+          locale_id: 0699df24b6e907cdd303f3aa74cbc34a
+          file_format: i18next_4
+          include_unverified_translations: true
+    targets:
+      - file: ./locales/it.json
+        params:
+          locale_id: 4ba717f5d8b4cc084f461bd7aafdef20
+          file_format: i18next_4
+          include_unverified_translations: true
+    targets:
+      - file: ./locales/es.json
+        params:
+          locale_id: f3e6d40373f0b56631ff3cdac1eca5b0
+          file_format: i18next_4
+          include_unverified_translations: true
+    targets:
+      - file: ./locales/nl.json
+        params:
+          locale_id: 3967bc3f2295ccb4e2997b9b5c0192d5
           file_format: i18next_4
           include_unverified_translations: true
