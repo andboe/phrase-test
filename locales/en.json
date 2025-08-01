@@ -1,0 +1,57 @@
+{
+  "entity": {
+    "scripts": {
+      "title": "Scripts",
+      "heading": "Execute Script",
+      "submit": "Execute",
+      "cancel": "Cancel",
+      "apply-preset": "Apply Preset",
+      "reset": "Reset",
+      "table": {
+        "header": {
+          "description": "Description"
+        }
+      },
+      "total-count_one": "1 script",
+      "total-count_other": "{{count}} scripts"
+    },
+    "presets": {
+      "title": "Presets",
+      "modal": {
+        "delete-confirmation": {
+          "title": "Delete preset?",
+          "content": "<bold>{{name}}</bold> will be permanently deleted.",
+          "error": "Deleting the Preset failed. Please try again.",
+          "toast": {
+            "success": "Successfully removed."
+          }
+        }
+      },
+      "create": {
+        "title": "Create Preset",
+        "submit": "Save",
+        "name": {
+          "label": "Preset Name"
+        },
+        "private": {
+          "label": "Private"
+        }
+      },
+      "edit": {
+        "title": "Edit Preset",
+        "submit": "Save",
+        "name": {
+          "label": "Preset Name"
+        },
+        "private": {
+          "label": "Private"
+        }
+      },
+      "table": {
+        "header": {
+          "private": "Private"
+        }
+      }
+    }
+  }
+}
