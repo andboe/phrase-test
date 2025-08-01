@@ -1,17 +1,18 @@
-access_token: 32fa771343e5c24f018ee35487f02d66c1c874b6dfac18977bf9864327b2c020
-project_id: 99d5e98019f531ea35b7a85224de7738
-push:
-  sources:
-    - file: ./locales/en.json
-      params:
-        file_format: i18next_4
-        tags: saferun-ui
-        update_translations: true
-        update_descriptions: true
-        autotranslate: true
-pull:
-  targets:
-    - file: ./locales/<locale_name>.json
-      params:
-        file_format: i18next_4
-        include_unverified_translations: true
+phrase:
+  access_token: 32fa771343e5c24f018ee35487f02d66c1c874b6dfac18977bf9864327b2c020
+  project_id: 99d5e98019f531ea35b7a85224de7738
+  push:
+    sources:
+      - file: ./locales/en.json
+        params:
+          file_format: i18next_4
+          tags: saferun-ui
+          update_translations: true
+          update_descriptions: true
+          autotranslate: true
+  pull:
+    targets:
+      - file: ./locales/<locale_code>.json
+        params:
+          file_format: i18next_4
+          include_unverified_translations: true
