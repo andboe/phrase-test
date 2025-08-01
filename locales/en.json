@@ -1,6 +1,7 @@
 {
   "entity": {
     "scripts": {
+      "test": "String",
       "title": "Scripts",
       "heading": "Execute Script",
       "submit": "Execute",
